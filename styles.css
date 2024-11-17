@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+#top {
+    text-align: center;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.section-1 {
+    width: 100%;
+    height: 160px;
+    background-color: white;
+}
+.header {
+    background-color: red;
+    height: 50px;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+}
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1em;
+}
+
+.section-2 {
+    margin: 0 100px;
+    height: 30em;
+}
+.s2-contenido {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.s2-img {
+    width: 60%;
+}
+.s2-img img {
+    object-fit: cover;
+    height: 100%;
+}
+.s2-texto {
+    width: 35%;
+}
+.s2-texto h2 {
+    font-size: 1.1em;
+    color: black;
+    margin: 0.25em 0;
+}
+.s2-texto p {
+    font-size: 1.1em;
+    color: black;
+}
+.s2-texto button {
+    background-color: red;
+    padding: 15px 10px;
+    border-radius: 15%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.h3 {
+    margin: 20px 100px;
+}
+
+.section-3 {
+    margin: 20px 100px;
+    height: 30em;
+}
+.s3-contenido {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.s3-img {
+    height: 100%;
+}
+.s3-img img {
+    height: 100%;
+    width: 1280px;
+}
+
+.section-4 {
+    width: 100%;
+    height: 100%;
+}
+.s4-contenido{
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s4-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.contenido-img img {
+    width: 350px;
+    height: 250px;
+}
+.s4-contenido button {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 15%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
